@@ -1,0 +1,22 @@
+{
+  "name": "bean-mining-agent",
+  "version": "1.0.0",
+  "description": "AI-powered BEAN mining agent for Base mainnet",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "node --watch agent.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.16.0",
+    "eventsource": "^2.0.2",
+    "node-telegram-bot-api": "^0.67.0",
+    "openai": "^6.27.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
